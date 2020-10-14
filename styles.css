@@ -108,7 +108,7 @@ body {
   top: 32px;
   display: block;
   align-items: center;
-  padding-right: 64;
+  padding-right: 64%;
   background: top right no-repeat url(img/mainimg.svg);
 }
 
