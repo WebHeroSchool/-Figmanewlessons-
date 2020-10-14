@@ -103,13 +103,22 @@ body {
 }
 
 .main {
-  padding-right: 0 63% 100px 0;
+  position: relative;
+  padding-bottom: 250px;
+  top: 32px;
+  display: block;
+  align-items: center;
+  padding-right: 64;
   background: top right no-repeat url(img/mainimg.svg);
 }
 
 .main__title {
-  margin: 0 0 40px 0;
-  font: bold 50px/65px pt-serif, arial, helvetica, sans-serif;
+  position: relative;
+  top: 75px;
+  left: -11px;
+  margin: -2px -20px 40px 10px;
+  margin-bottom: 40px;
+  font: 700 50px/65px pt-serifbold, arial, helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
@@ -117,13 +126,22 @@ body {
 }
 
 .main__subtitle {
-  margin: 0 0 41px 0;
-  font: 18px/21px Roboto, arial, helvetica, sans-serif;
+  position: relative;
+  top: 70px;
+  left: -10px;
+  margin: 0 90px 41px 8px;
+  margin-top: 30px;
+  margin-bottom: 41px;
+  font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
 }
 
 .main__button {
+  position: relative;
+  top: 72px;
+  right: 8px;
   display: inline-block;
-  font: 14px/16px Roboto, arial, helvetica, sans-serif;
+  margin: -1px 0 40px 9px;
+  font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056ec;
   padding: 14px 16px;
