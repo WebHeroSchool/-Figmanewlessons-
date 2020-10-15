@@ -163,7 +163,7 @@ body {
   opacity: .5;
 }
 
-@media  (max-width:768px) {
+@media (max-width: 768px) {
   .menu,
   .logo__text {
     display: none;
@@ -188,17 +188,18 @@ body {
     padding-top: 73%;
   }
 
-   .main__title {
-     margin-bottom: 44%;
-     font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+  .main__title {
+    margin-bottom: 44%;
+    font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
   }
 
-   .main__subtitle {
-     margin-bottom: 25px;
-     font: 500 16px/19px roboto, arial, helvetica, sans-serif;
+  .main__subtitle {
+    margin-bottom: 25px;
+    font: 500 16px/19px roboto, arial, helvetica, sans-serif;
   }
 
-   .main__button {
-     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  .main__button {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    padding: 14px 22px;
   }
 }
