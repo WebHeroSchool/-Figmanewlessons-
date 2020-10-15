@@ -165,7 +165,7 @@ body {
 
 @media (max-width: 768px) {
   .menu,
-  .logo__text {
+  .logo__app.creation {
     display: none;
   }
 
