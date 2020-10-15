@@ -176,7 +176,7 @@ body {
   .mobile_menu {
     position: absolute;
     left: 85%;
-    top: 7%;
+    top: 6%;
     width: 25px;
     height: 17px;
     display: inline-flex;
@@ -196,12 +196,12 @@ body {
   }
 
   .main__title {
-    margin-bottom: 44%;
+    margin-bottom: 44px;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
-    text-align: center;
+    left: 20px;
     margin-bottom: 25px;
     font: 500 16px/19px roboto, arial, helvetica, sans-serif;
   }
