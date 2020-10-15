@@ -101,6 +101,16 @@ body {
   width: 100%;
 }
 
+.mobile_menu {
+  display: none;
+}
+
+.mobile_menu_burger {
+  width: 25px;
+  height: 3px;
+  background: #0056ec;
+}
+
 .main {
   position: relative;
   padding-bottom: 250px;
@@ -151,4 +161,44 @@ body {
 
 .main__button:hover {
   opacity: .5;
+}
+
+@media  (max-width:768px) {
+  .menu,
+  .logo__text {
+    display: none;
+  }
+
+  .wrapper {
+    width: 87%;
+  }
+
+  .mobile_menu {
+    height: 17px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .header {
+    margin-bottom: 28px;
+  }
+
+  .main {
+    padding-top: 73%;
+  }
+
+   .main__title {
+     margin-bottom: 44%;
+     font: bold 30px/39px pt_serif, arial, helvetica, sans-serif;
+  }
+
+   .main__subtitle {
+     margin-bottom: 25px;
+     font: 500 16px/19px roboto, arial, helvetica, sans-serif;
+  }
+
+   .main__button {
+     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+  }
 }
