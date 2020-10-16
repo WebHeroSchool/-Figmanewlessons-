@@ -191,7 +191,7 @@ body {
   .main {
     position: relative;
     text-align: center;
-    padding: 60% 0 0;
+    padding: 40% 0 0;
     background-size: 74%;
     background-position: top center;
   }
@@ -207,7 +207,7 @@ body {
     top: 74px;
     left: 25px;
     margin-bottom: 44px;
-    font: 500 18px/21px roboto, arial, helvetica, sans-serif;
+    font: 500 16px/19px roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
