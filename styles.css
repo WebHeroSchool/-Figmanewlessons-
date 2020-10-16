@@ -175,7 +175,7 @@ body {
 
   .mobile_menu {
     position: absolute;
-    left: 85%;
+    left: 90%;
     top: 5%;
     width: 25px;
     height: 17px;
@@ -191,7 +191,7 @@ body {
   .main {
     position: relative;
     text-align: center;
-    padding: 74% 0 0;
+    padding: 60% 0 0;
     background-size: 74%;
     background-position: top center;
   }
