@@ -170,7 +170,7 @@ body {
   }
 
   .wrapper {
-    width: 85%;
+    width: 90%;
   }
 
   .mobile_menu {
@@ -191,7 +191,7 @@ body {
   .main {
     position: relative;
     text-align: center;
-    padding: 62% 0 0;
+    padding: 74% 0 0;
     background-size: 74%;
     background-position: top center;
   }
@@ -206,7 +206,7 @@ body {
     position: relative;
     left: 25px;
     margin-bottom: 44px;
-    font: 500 14px/16px roboto, arial, helvetica, sans-serif;
+    font: 500 16px/19px roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
