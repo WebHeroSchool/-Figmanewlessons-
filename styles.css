@@ -185,13 +185,13 @@ body {
   }
 
   .header {
-    margin-bottom: 22px;
+    margin-bottom: 28px;
   }
 
   .main {
     position: relative;
     text-align: center;
-    padding: 40% 0 0;
+    padding: 45% 0 0;
     background-size: 74%;
     background-position: top center;
   }
