@@ -204,6 +204,7 @@ body {
 
   .main__subtitle {
     position: relative;
+    top: 76px;
     left: 20px;
     margin-bottom: 44px;
     font: 500 16px/19px roboto, arial, helvetica, sans-serif;
