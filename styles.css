@@ -163,14 +163,14 @@ body {
   opacity: .5;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 667px) {
   .menu,
   .logo__text {
     display: none;
   }
 
   .wrapper {
-    width: 100%;
+    width: 85%;
   }
 
   .mobile_menu {
@@ -198,18 +198,19 @@ body {
 
   .main__title {
     position: relative;
-    margin-bottom: 44px;
+    margin-bottom: 32px;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
     position: relative;
     left: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 44px;
     font: 500 16px/19px roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
+    margin-bottom: 25px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
