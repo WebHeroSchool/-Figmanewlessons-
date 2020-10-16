@@ -169,13 +169,9 @@ body {
     display: none;
   }
 
-  .wrapper {
-    width: 87%;
-  }
-
   .mobile_menu {
     position: absolute;
-    left: 90%;
+    left: 85%;
     top: 5%;
     width: 25px;
     height: 17px;
@@ -189,18 +185,21 @@ body {
   }
 
   .main {
+    position: relative;
     text-align: center;
-    padding: 60% 0 0;
-    background-size: 60%;
+    padding: 74% 0 0;
+    background-size: 74%;
     background-position: top center;
   }
 
   .main__title {
+    position: relative;
     margin-bottom: 44px;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
   .main__subtitle {
+    position: relative;
     left: 20px;
     margin-bottom: 25px;
     font: 500 16px/19px roboto, arial, helvetica, sans-serif;
