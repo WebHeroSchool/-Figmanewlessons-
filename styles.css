@@ -169,6 +169,10 @@ body {
     display: none;
   }
 
+  .wrapper {
+    width: 100%;
+  }
+
   .mobile_menu {
     position: absolute;
     left: 85%;
