@@ -185,13 +185,13 @@ body {
   }
 
   .header {
-    margin-bottom: 28px;
+    margin-bottom: 22px;
   }
 
   .main {
     position: relative;
     text-align: center;
-    padding: 30% 0 0;
+    padding: 40% 0 0;
     background-size: 74%;
     background-position: top center;
   }
@@ -206,7 +206,7 @@ body {
     position: relative;
     left: 25px;
     margin-bottom: 44px;
-    font: 500 14px/17px roboto, arial, helvetica, sans-serif;
+    font: 500 14px/16px roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
