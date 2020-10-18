@@ -163,14 +163,10 @@ body {
   opacity: .5;
 }
 
-@media (max-width: 667px) {
+@media (max-width: 768px) {
   .menu,
   .logo__text {
     display: none;
-  }
-
-  .wrapper {
-    width: 85%;
   }
 
   .mobile_menu {
@@ -201,13 +197,11 @@ body {
   }
 
   .main__subtitle {
-    left: 25px;
     margin-bottom: 44px;
     font: 500 16px/19px roboto, arial, helvetica, sans-serif;
   }
 
   .main__button {
-    margin-bottom: 25px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
