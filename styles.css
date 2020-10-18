@@ -170,8 +170,9 @@ body {
   }
 
   .wrapper {
-    width: 375px;
-    height: 667px;
+    max-width: 85%;
+    margin: 0 auto;
+    max-height: 85%;
   }
 
   .mobile_menu {
@@ -187,13 +188,12 @@ body {
 
   .header {
     margin-bottom: 10px;
+
   }
 
   .main {
     text-align: center;
-    padding: 60% 0 0;
-    margin-bottom: 43px;
-    margin-top: 28px;
+    padding: 74% 0 0;
     background-size: 74%;
     background-position: top center;
   }
