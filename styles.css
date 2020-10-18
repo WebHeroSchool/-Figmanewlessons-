@@ -167,11 +167,11 @@ body {
   .menu,
   .logo__text {
     display: none;
-    padding-top: 28px;
   }
 
   .wrapper {
-    width: 90%;
+    width: 375px;
+    height: 667px;
   }
 
   .mobile_menu {
