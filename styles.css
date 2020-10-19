@@ -226,7 +226,7 @@ body {
   .menu {
     position: relative;
     left: 43px;
-    top: 51px;
+    top: 25px;
   }
 
   .menu__item {
@@ -286,7 +286,7 @@ body {
     .menu {
       position: relative;
       left: 43px;
-      top: 51px;
+      top: 25px;
     }
 
     .menu__item {
