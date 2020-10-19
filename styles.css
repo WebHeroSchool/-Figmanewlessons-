@@ -220,7 +220,7 @@ body {
 
   .wrapper {
     margin: auto;
-    width: 100%;
+    width: 80%;
   }
 
   .menu {
@@ -237,8 +237,7 @@ body {
   .main {
     position: relative;
     margin: 0;
-    margin-top: 0;
-    margin-left: 85px;
+    padding-bottom: 150px;
     display: block;
     align-items: center;
     padding-right: 50%;
