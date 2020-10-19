@@ -300,7 +300,7 @@ body {
 
     .main {
       position: relative;
-      background-size: 50%;
+      background-size: 74%;
       background: top right no-repeat url(img/img1366.svg);
     }
 
@@ -323,4 +323,5 @@ body {
       position: relative;
       top: 41px;
       left: 219px;
+      margin-bottom: 100px;
     }
