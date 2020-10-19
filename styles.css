@@ -223,13 +223,10 @@ body {
     width: 100%;
   }
 
-  .logo {
-    left: 78px;
-    display: inline-block;
-  }
-
   .menu {
     position: relative;
+    left: 43px;
+    top: -25px;
   }
 
   .menu__item {
@@ -245,14 +242,12 @@ body {
     display: block;
     align-items: center;
     padding-right: 50%;
-    background-size: 55%;
+    background-size: 50%;
   }
 
   .main__title {
     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
     position: relative;
-    margin: 0;
-    margin-top: 70px;
     margin-bottom: 40px;
   }
 
