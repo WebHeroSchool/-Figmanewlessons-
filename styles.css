@@ -215,7 +215,7 @@ body {
 
   .logo {
     left: 46px;
-    top: -40px;
+    top: -25px;
   }
 
   .mobile_menu {
@@ -228,17 +228,17 @@ body {
 
   .menu {
     position: relative;
-    top: -51px;
-    right: 46px;
+    left: 76px;
+    top: -25px;
   }
 
-  .menu__item {
+  .menu__item-max {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     margin-right: 21px;
   }
 
   .main {
-    background: top 17% right 9% no-repeat url(img/mainimg.svg);
+    background: top 17% right 9% no-repeat url(1024.svg);
     padding: 0 55% 100px 0;
   }
 
@@ -255,7 +255,7 @@ body {
     left: 46px;
   }
 
-  .main__button{
+  .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     position: relative;
   }
@@ -287,7 +287,7 @@ body {
     }
 
     .main {
-      background: top 36px right 85px no repeat url (img/mainimg.svg)
+      background: top 36px right 85px no repeat url (1366.svg)
     }
 
     .main__title {
