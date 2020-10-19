@@ -238,7 +238,7 @@ body {
   }
 
   .main {
-    background: top 17% right 9% no-repeat url(1024.svg);
+    background: top 17% right 9% no-repeat url(img1024.svg);
     padding: 0 55% 100px 0;
   }
 
@@ -287,7 +287,7 @@ body {
     }
 
     .main {
-      background: top 36px right 85px no repeat url (1366.svg)
+      background: top 36px right 85px no repeat url (img1366.svg)
     }
 
     .main__title {
