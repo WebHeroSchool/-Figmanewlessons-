@@ -226,7 +226,7 @@ body {
   .menu {
     position: relative;
     left: 43px;
-    top: 25px;
+    top: 20px;
   }
 
   .menu__item {
@@ -245,7 +245,7 @@ body {
   }
 
   .main__title {
-    font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+    font: 700 50px/66px pt_serif, arial, helvetica, sans-serif;
     position: relative;
     margin-bottom: 40px;
   }
@@ -286,7 +286,7 @@ body {
     .menu {
       position: relative;
       left: 43px;
-      top: 25px;
+      top: 20px;
     }
 
     .menu__item {
@@ -307,7 +307,7 @@ body {
     .main__title {
       position: relative;
       margin-bottom: 40px;
-      font: 700 50px/66px pt-pt_serifbold, arial, helvetica, sans-serif;
+      font: 700 50px/66px pt_serif, arial, helvetica, sans-serif;
     }
 
     .main__subtitle {
