@@ -238,8 +238,13 @@ body {
   }
 
   .main {
-    background: top 17% right 9% no-repeat url(img1024.svg);
-    padding: 0 55% 100px 0;
+    position: relative;
+    padding-bottom: 250px;
+    top: 32px;
+    display: block;
+    align-items: center;
+    padding-right: 64%;
+    background: top right no-repeat url(img1024.svg);
   }
 
   .main__title {
