@@ -226,6 +226,7 @@ body {
 
   .wrapper {
     width: 110%;
+    height: auto;
   }
 
   .menu {
