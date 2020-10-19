@@ -267,7 +267,7 @@ body {
     left: 46px;
   }
 
-  @media (min-width 1366px) {
+  @media (max-width 1366px) {
 
     .header {
       display: flex;
