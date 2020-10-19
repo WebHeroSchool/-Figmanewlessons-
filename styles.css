@@ -270,12 +270,14 @@ body {
   @media (min-width 1366px) {
 
     .header {
-      margin-bottom: 0px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 100px;
     }
 
     .wrapper {
-      width: 150%;
-      margin-left: auto;
+      width: 80%;
+      margin: auto;
     }
 
     .logo {
@@ -307,21 +309,18 @@ body {
     .main__title {
       font: 700 50px/66px pt-pt_serifbold, arial, helvetica, sans-serif;
       position: relative;
-      top: 40px;
-      left: 218px;
+      margin-bottom: 40px;
     }
 
     .main__subtitle {
       font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
       position: relative;
-      top: 40px;
-      left: 218px;
+      margin-bottom: 41px;
     }
 
     .main__button {
       font: 500 14px/16px Roboto, arial. helvetica, sans-serif;
       position: relative;
       top: 41px;
-      left: 219px;
       margin-bottom: 100px;
     }
