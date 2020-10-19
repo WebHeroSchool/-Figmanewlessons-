@@ -225,8 +225,8 @@ body {
   }
 
   .wrapper {
+    margin: auto;
     width: 110%;
-    height: 82%;
   }
 
   .menu {
@@ -273,6 +273,11 @@ body {
       margin-bottom: 0px;
     }
 
+    .wrapper {
+      width: 115%;
+      margin-left: auto;
+    }
+
     .logo {
       left: 81px;
       top: -24px;
@@ -294,22 +299,28 @@ body {
     }
 
     .main {
-
+      position: relative;
+      background-size: 74%;
+      background: top right no-repeat url(img/img1366.svg);
     }
 
     .main__title {
       font: 700 50px/66px pt-pt_serifbold, arial, helvetica, sans-serif;
       position: relative;
-      margin-bottom: 40px;
+      top: 40px;
+      left: 218px;
     }
 
     .main__subtitle {
       font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
       position: relative;
-      margin-bottom: 41px;
+      top: 40px;
+      left: 218px;
     }
 
     .main__button {
       font: 500 14px/16px Roboto, arial. helvetica, sans-serif;
       position: relative;
+      top: 41px;
+      left: 219px;
     }
