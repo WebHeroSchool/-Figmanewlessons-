@@ -220,13 +220,13 @@ body {
 
   .wrapper {
     margin: auto;
-    width: 80%;
+    width: 100%;
   }
 
   .menu {
     position: relative;
     left: 43px;
-    top: -25px;
+    top: 51px;
   }
 
   .menu__item {
@@ -286,7 +286,7 @@ body {
     .menu {
       position: relative;
       left: 43px;
-      top: -25px;
+      top: 51px;
     }
 
     .menu__item {
