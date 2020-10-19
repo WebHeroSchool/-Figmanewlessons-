@@ -215,8 +215,7 @@ body {
     display: flex;
   }
 
-  .logo,
-  .menu {
+  .logo {
     display: inline-block;
   }
 
@@ -226,6 +225,11 @@ body {
 
   .wrapper {
     width: 100%;
+  }
+
+  .menu {
+    top: 51px;
+    left: 663px;
   }
 
   .menu__item-max {
@@ -241,10 +245,9 @@ body {
   .main__title {
     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
     position: relative;
-    margin-bottom: 40px;
     margin: -2px -10px 30px 10px;
-    left: -10px;
-    top: 66%;
+    left: 46px;
+    top: 40px;
   }
 
   .main__subtitle {
