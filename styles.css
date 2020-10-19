@@ -206,3 +206,47 @@ body {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
+
+@@media (max-width: 1024px) {
+  }
+
+  .header {
+    margin-bottom: 0;
+  }
+
+  .mobile_menu {
+    display: none
+  }
+
+  .wrapper {
+    margin: auto;
+    width: 100%;
+  }
+
+  .menu__item {
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    right: 46px;
+  }
+
+  .main {
+    background: top 17% right 9% no-repeat url(img/mainimg.svg);
+    padding: 0 55% 100px 0;
+  }
+
+  .main__title {
+    font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+    position: relative;
+    margin-bottom: 40px;
+  }
+
+  .main__subtitle {
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    position: relative;
+    margin-bottom: 41px;
+    left: 46px;
+  }
+
+  .main__button{
+    font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    position: relative;
+  }
