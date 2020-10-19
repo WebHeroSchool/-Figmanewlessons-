@@ -228,23 +228,18 @@ body {
 
   .menu {
     position: relative;
-    left: 76px;
-    top: -25px;
+    left: 663px;
+    top: 51px;
   }
 
   .menu__item-max {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
-    margin-right: 21px;
+    margin-right: 46px;
   }
 
   .main {
     position: relative;
-    padding-bottom: 250px;
-    top: 32px;
-    display: block;
-    align-items: center;
-    padding-right: 64%;
-    background: top right no-repeat url(img/mainimg.svg);
+
   }
 
   .main__title {
