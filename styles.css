@@ -242,7 +242,7 @@ body {
   .main {
     position: relative;
     background-size: 74%;
-    background: top right no-repeat url(img1024.svg);
+    background: top right no-repeat url(img/img1024.svg);
 
   }
 
