@@ -207,7 +207,7 @@ body {
   }
 }
 
-@@media (max-width: 1024px) {
+@media (max-width: 1024px) {
 
   .header {
     margin-bottom: 100px;
@@ -228,7 +228,6 @@ body {
     width: 100%;
   }
 
-
   .menu__item-max {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     margin-right: 46px;
@@ -236,8 +235,7 @@ body {
 
   .main {
     position: relative;
-    padding: 74% 0 0;
-    background-size: 74%;
+
   }
 
   .main__title {
