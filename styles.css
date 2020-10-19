@@ -239,13 +239,15 @@ body {
 
   .main {
     position: relative;
-
+    padding: 74% 0 0;
+    background-size: 74%;
   }
 
   .main__title {
     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
     position: relative;
     margin-bottom: 40px;
+
   }
 
   .main__subtitle {
