@@ -244,19 +244,30 @@ body {
     font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
     position: relative;
     margin-bottom: 40px;
-
+    margin: -2px -20px 40px 10px;
+    left: -10px;
+    top: 73%;
   }
 
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
     position: relative;
     margin-bottom: 41px;
-    left: 46px;
+    left: -10px;
+    top: 70px;
+    margin: 0 90px 41px 8px;
+    margin-top: 30px;
+    margin-bottom: 41px;
   }
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
     position: relative;
+    top: 72px;
+    right: 8px;
+    display: inline-block;
+    margin: -1px 0 40px 9px;
+    padding: 18px 21px;
   }
 
   @media (min-width 1366px) {
