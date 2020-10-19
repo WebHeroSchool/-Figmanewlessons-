@@ -210,12 +210,14 @@ body {
 @@media (max-width: 1024px) {
 
   .header {
-    margin-bottom: 0;
+    margin-bottom: 100px;
+    justify-content: space-between;
+    display: flex;
   }
 
-  .logo {
-    left: 46px;
-    top: -25px;
+  .logo,
+  .menu {
+    display: inline-block;
   }
 
   .mobile_menu {
@@ -226,11 +228,6 @@ body {
     width: 100%;
   }
 
-  .menu {
-    position: relative;
-    left: 663px;
-    top: 51px;
-  }
 
   .menu__item-max {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
