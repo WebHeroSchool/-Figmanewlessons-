@@ -207,16 +207,11 @@ body {
   }
 }
 
-@media (max-width: 1024px) {
+  @media (max-width: 1024px) {
   .header {
-    margin-bottom: 100px;
-    justify-content: space-between;
     display: flex;
-  }
-
-  .logo {
-    left: 46px;
-    display: inline-block;
+    justify-content: space-between;
+    margin-bottom: 100px;
   }
 
   .mobile_menu {
@@ -229,9 +224,9 @@ body {
   }
 
   .menu {
-    top: 51px;
-    left: 663px;
-    right: 46px;
+    position: relative;
+    left: 43px;
+    top: -25px;
   }
 
   .menu__item-max {
@@ -264,22 +259,23 @@ body {
     position: relative;
     top: 41px;
     left: 46px;
-  }
+   }
+ }
 
-  @media (max-width 1366px) {
+   @media (max-width 1366px) {
    .header {
       display: flex;
       justify-content: space-between;
       margin-bottom: 100px;
     }
 
-    .wrapper {
-      width: 80%;
-      margin: auto;
-    }
-
     .mobile_menu {
       display: none;
+    }
+
+    .wrapper {
+      margin: auto;
+      width: 80%;
     }
 
     .menu {
@@ -304,17 +300,17 @@ body {
     }
 
     .main__title {
-      font: 700 50px/66px pt-pt_serifbold, arial, helvetica, sans-serif;
       position: relative;
       margin-bottom: 40px;
+      font: 700 50px/66px pt-pt_serifbold, arial, helvetica, sans-serif;
     }
 
     .main__subtitle {
       font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
       position: relative;
-      margin-bottom: 41px;
       margin: 0 90px 41px 8px;
       margin-top: 30px;
+      margin-bottom: 41px;
     }
 
     .main__button {
