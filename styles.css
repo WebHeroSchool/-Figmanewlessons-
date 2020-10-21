@@ -235,7 +235,7 @@ body {
 
   .menu__item {
     position: relative;
-    left: -130px;
+    left: -71px;
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 
@@ -249,6 +249,21 @@ body {
     padding-right: 50%;
     background-size: 50%;
     background-position: 83% 21%;
+  }
+
+  .main__title {
+    position: relative;
+    margin: 0;
+    margin-top: 65px;
+    margin-bottom: 40px;
+    font: 700 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    position: relative;
+    font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+    margin: 0 90px 41px 0;
+    margin-bottom: 41px;
   }
 }
 
