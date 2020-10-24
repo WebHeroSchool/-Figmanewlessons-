@@ -169,10 +169,7 @@ body {
   }
 
   .wrapper {
-    margin: auto;
-    width: auto;
-    max-width: 1530px;
-    padding: 0 40px 0 40px;
+    width: 929px;
   }
 
   .header {
