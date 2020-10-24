@@ -168,6 +168,13 @@ body {
 
   }
 
+  .wrapper {
+    margin: auto;
+    width: auto;
+    max-width: 1530px;
+    padding: 0 40px 0 40px;
+  }
+
   .header {
     margin-bottom: 54px;
   }
