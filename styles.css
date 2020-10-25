@@ -166,13 +166,11 @@ body {
 
  @media (max width: 1366px)  {
 
-  }
+   .wrapper {
+   max-width: 929px;
+   }
 
-  .wrapper {
-    width: 929px;
-  }
-
-  .header {
+   .header {
     margin-bottom: 54px;
   }
 
@@ -184,7 +182,7 @@ body {
   .main {
     padding-right: 0;
     background-size: 510px;
-    align-items: intial;
+    padding-bottom: 120px;
   }
 
   .main-content {
@@ -210,5 +208,16 @@ body {
 
   .main__button {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
+    margin: 36px 0 0 -6px;
+    top: 0;
+    left: 0;
   }
+}
+
+@media (max-width: 1024px) {
+
+  .wrapper {
+    max-width: 932px;
+  }
+
 }
