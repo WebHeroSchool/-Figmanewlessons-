@@ -306,7 +306,7 @@ body {
 
 @media (max-width: 375px) {
   .header {
-  margin-bottom: -25px;
+    margin-bottom: -25px;
   }
 
   .main {
