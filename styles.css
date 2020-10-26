@@ -206,10 +206,13 @@ body {
 
   .main__button {
     font: 500 14px/16px Robobto, arial, helvetica, sans-serif;
+    left: 0;
+    top: 0;
+    margin: 33px 0 0 -7px;
   }
 
   .menu__item {
     font: 500 14px/16px Robobto, arial, helvetica, sans-serif;
-    margin-right: 25px;
+    margin-right: 27px;
   }
 }
