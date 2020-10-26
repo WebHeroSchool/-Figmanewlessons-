@@ -303,3 +303,29 @@ body {
     font: 500 14px/16px Roboto, arial, helvetica, sans-serif;
   }
 }
+
+@media (max-width: 375px) {
+  .header {
+  margin-bottom: -25px;
+  }
+
+  .main {
+    background-size: 96%;
+  }
+
+  .main-content {
+    padding-top: 21px;
+  }
+
+  .main__subtitle {
+    margin: 0 26px;
+  }
+
+  .main__title {
+    margin: -6px -6px 0 0;
+  }
+
+  .main__button {
+    margin: 25px -5px 0 -13px;
+  }
+}
