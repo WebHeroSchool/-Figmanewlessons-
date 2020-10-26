@@ -105,9 +105,6 @@ body {
 
 .mobile__menu {
   display: none;
-}
-
-.mobile__menu {
   width: 25px;
   height: 3px;
   background: #0056ec;
@@ -217,7 +214,6 @@ body {
 }
 
 @media (max-width: 1024px) {
-
   .wrapper {
     max-width: 933px;
   }
