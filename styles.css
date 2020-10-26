@@ -103,8 +103,11 @@ body {
   width: 100%;
 }
 
-.mobile__menu {
+.mobile_menu {
   display: none;
+}
+
+.mobile_menu_burger {
   width: 25px;
   height: 3px;
   background: #0056ec;
@@ -247,7 +250,7 @@ body {
 }
 
 @media (max-width: 600px) {
-  .logotext,
+  .logo__text,
   .menu {
     display: none;
   }
@@ -258,7 +261,7 @@ body {
     padding: 40px 0;
   }
 
-  .mobile__menu {
+  .mobile_menu {
     margin: 32px -16px 29px 0;
     display: inline-flex;
     flex-direction: column;
