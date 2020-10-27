@@ -241,13 +241,13 @@ body {
   }
 
   .main__title {
-    font: 700 48px/66px pt_serifbold, arial, helvetica;
+    font: 700 48px/66px pt_serifbold, arial, helvetica, sans-serif;
   }
 }
 
-@media (max-width 850px) {
+@media (max-width: 850px) {
   .header {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .main {
@@ -255,7 +255,7 @@ body {
   }
 
   .main__title {
-    font: 700 42px/64px pt_serifbold, arial, helvetica;
+    font: 700 42px/64px pt_serifbold, arial, helvetica, sans-serif;
     max-width: 330px;
   }
 
