@@ -231,6 +231,43 @@ body {
   }
 }
 
+@media (max-width: 924px) {
+  .header {
+    margin-bottom: 21px;
+  }
+
+  .main {
+    background-size: 487px;
+  }
+
+  .main__title {
+    font: 700 48px/66px pt_serifbold, arial, helvetica;
+  }
+}
+
+@media (max-width 769px) {
+  .header {
+    margin-bottom: 8px;
+  }
+
+  .main {
+    background-size: 411px;
+  }
+
+  .main__title {
+    font: 700 37px/59px pt_serifbold, arial, helvetica;
+    max-width: 320px;
+  }
+
+  .main__subtitle {
+    max-width: 287px;
+  }
+
+  .main__button {
+    margin: 23px 0 0 -6px;
+  }
+}
+
 @media (max-width: 768px) {
   .header {
     margin-bottom: 10px;
