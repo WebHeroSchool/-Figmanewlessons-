@@ -245,30 +245,31 @@ body {
   }
 }
 
-@media (max-width 769px) {
+@media (max-width 850px) {
   .header {
-    margin-bottom: 8px;
+    margin-bottom: 0px;
   }
 
   .main {
-    background-size: 411px;
+    background-size: 440px;
   }
 
   .main__title {
-    font: 700 37px/59px pt_serifbold, arial, helvetica;
-    max-width: 320px;
+    font: 700 42px/64px pt_serifbold, arial, helvetica;
+    max-width: 330px;
   }
 
   .main__subtitle {
-    max-width: 287px;
+    padding: 26px 0 0 0;
+    max-width: 289px;
   }
 
   .main__button {
-    margin: 23px 0 0 -6px;
+    margin: 27px 0 0 -6px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .header {
     margin-bottom: 10px;
   }
