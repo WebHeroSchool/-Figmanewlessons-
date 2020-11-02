@@ -326,7 +326,8 @@ body {
   }
 
   .main__title {
-    margin: -1px -1px 0 90px;
+    margin: 0;
+    padding: 0 69px;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
@@ -351,7 +352,7 @@ body {
   }
 
   .main__title {
-    margin: -45px -1px 0 45px;
+    margin: 0;
   }
 }
 
@@ -395,7 +396,7 @@ body {
   }
 
   .main__title {
-    margin: -6px -6px 0 0;
+    margin: -6px 0 1px 6px;
   }
 
   .main__button {
