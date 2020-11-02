@@ -346,37 +346,6 @@ body {
   }
 }
 
-@media (max-width: 510px) {
-  .header {
-    margin-bottom: -32px;
-  }
-
-  .main__title {
-    margin: 0;
-  }
-}
-
-@media (max-width: 425px) {
-  .header {
-    margin-bottom: -28px;
-  }
-
-  .main {
-    background-size: 322px;
-  }
-
-  .main__title {
-    margin: -93px -1px 0 7px;
-  }
-
-  .main__subtitle {
-    padding-top: 32px;
-  }
-
-  .main__button {
-    margin: 25px -1px 0 -2px;
-  }
-}
 
 @media (max-width: 375px) {
   .header {
