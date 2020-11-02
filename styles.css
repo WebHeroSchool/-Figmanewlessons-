@@ -345,6 +345,28 @@ body {
   }
 }
 
+@media (max-width: 425px) {
+  .header {
+    margin-bottom: -28px;
+  }
+
+  .main {
+    padding-top: 125px 0 0;
+  }
+
+  .main__title {
+    margin: -1px -1px 0 7px;
+  }
+
+  .main__subtitle {
+    padding-top: 26px;
+  }
+
+  .main__button {
+    margin: 25px -1px 0 -2px;
+  }
+}
+
 @media (max-width: 375px) {
   .header {
     margin-bottom: -25px;
