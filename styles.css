@@ -351,11 +351,11 @@ body {
   }
 
   .main {
-    padding-top: 125px 0 0;
+    background-size: 322px;
   }
 
   .main__title {
-    margin: -1px -1px 0 7px;
+    margin: -93px -1px 0 7px;
   }
 
   .main__subtitle {
