@@ -322,12 +322,11 @@ body {
 
   .main-content {
     max-width: 518px;
-    padding-top: 155px;
+    padding-top: 135px;
   }
 
   .main__title {
-    margin: 0;
-    padding: 0 69px;
+    margin: 0 auto;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
@@ -346,7 +345,6 @@ body {
   }
 }
 
-
 @media (max-width: 375px) {
   .header {
     margin-bottom: -25px;
@@ -358,17 +356,21 @@ body {
 
   .main-content {
     padding-top: 21px;
+    margin: 0 0 0 5px;
   }
 
   .main__subtitle {
-    margin: 0 26px;
+    margin: width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding-top: 33px;
   }
 
   .main__title {
-    margin: -6px 0 1px 6px;
+    margin: -6px -2px 0 0;
   }
 
   .main__button {
-    margin: 25px -5px 0 -13px;
+    margin: 25px -5px 0 -17px;
   }
 }
