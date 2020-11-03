@@ -386,7 +386,7 @@ body {
   }
 
   .main__subtitle {
-    margin: width: 100%;
+    width: 100%;
     max-width: 250px;
     margin: 0 auto;
     padding-top: 33px;
