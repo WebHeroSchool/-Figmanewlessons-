@@ -234,6 +234,13 @@ body {
   }
 }
 
+@media (max-width: 959px) {
+  .main {
+    background-size: 476px;
+    padding-bottom: 85px;
+  }
+}
+
 @media (max-width: 924px) {
   .header {
     margin-bottom: 21px;
@@ -287,6 +294,25 @@ body {
 
   .main__subtitle {
     font: 500 18px/21px Roboto, arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 752px) {
+  .header {
+    margin-bottom: 0;
+  }
+
+  .main {
+    background-size: 306px;
+  }
+
+  .main__title {
+    font: 700 29px/45px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    font: 500 16px/21px Roboto, arial, helvetica, sans-serif;
+    max-width: 250px;
   }
 }
 
