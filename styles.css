@@ -234,6 +234,13 @@ body {
   }
 }
 
+@media (max-width: 959px) {
+  .main {
+    background-size: 476px;
+    padding-bottom: 85px;
+  }
+}
+
 @media (max-width: 924px) {
   .header {
     margin-bottom: 21px;
@@ -290,6 +297,25 @@ body {
   }
 }
 
+@media (max-width: 752px) {
+  .header {
+    margin-bottom: 0;
+  }
+
+  .main {
+    background-size: 306px;
+  }
+
+  .main__title {
+    font: 700 29px/45px pt_serifbold, arial, helvetica, sans-serif;
+  }
+
+  .main__subtitle {
+    font: 500 16px/21px Roboto, arial, helvetica, sans-serif;
+    max-width: 250px;
+  }
+}
+
 @media (max-width: 600px) {
   .logo__text,
   .menu {
@@ -322,11 +348,11 @@ body {
 
   .main-content {
     max-width: 518px;
-    padding-top: 155px;
+    padding-top: 135px;
   }
 
   .main__title {
-    margin: -1px -1px 0 90px;
+    margin: 0 auto;
     font: 700 30px/39px pt_serifbold, arial, helvetica, sans-serif;
   }
 
@@ -356,17 +382,21 @@ body {
 
   .main-content {
     padding-top: 21px;
+    margin: 0 0 0 5px;
   }
 
   .main__subtitle {
-    margin: 0 26px;
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    padding-top: 33px;
   }
 
   .main__title {
-    margin: -6px -6px 0 0;
+    margin: -6px -2px 0 0;
   }
 
   .main__button {
-    margin: 25px -5px 0 -13px;
+    margin: 25px -5px 0 -17px;
   }
 }
